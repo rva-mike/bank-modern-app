@@ -23,9 +23,14 @@ const Hero = () => (
           <GetStarted />
         </div>
       </div>
-
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px text-white ss:leading-[100px] leading-[75px] w-full">Payment Method</h1>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+    </div>
 
+    <div>
+      <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+
+      <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
     </div>
 
   </section>
