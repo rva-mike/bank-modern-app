@@ -37,6 +37,11 @@ nav a {
 /* nav underline effect */
 
 
+/* .animate__animated.animate__pulse {
+  --animate-duration: 2s;
+  animation-iteration-count: infinite;
+} */
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
