@@ -24,7 +24,6 @@ const Navbar = () => {
         ))}
       </ul>
 
-
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         {/* if toggle is turned on show closed icons, otherwise show menu icon  */}
         <img
