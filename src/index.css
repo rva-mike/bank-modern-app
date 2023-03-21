@@ -18,6 +18,25 @@
   scroll-behavior: smooth;
 }
 
+/* nav underline effect */
+nav a:hover,
+nav a:focus {
+  background-size: 100% 2px;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  transition: background-size .3s;
+  padding-bottom: 5px;
+}
+/* nav underline effect */
+
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
