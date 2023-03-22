@@ -23,6 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import logoNexus from "./logoNexus.png"
+import logoNova from "./logoNova.png"
+import logoNexus2 from "./logoNexus2.png"
+import robotNexus from "./robotNexus.png"
 
 export {
   airbnb,
@@ -50,4 +54,8 @@ export {
   people01,
   people02,
   people03,
+  logoNexus,
+  logoNexus2,
+  logoNova,
+  robotNexus,
 };

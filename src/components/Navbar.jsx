@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { close, logo, menu } from '../assets'
+import { close, logo, logoNova, logoNexus, logoNexus2, menu } from '../assets'
 import { navLinks } from '../constants'
 
 // logic for ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}; dynamic block, if index is last element of navLinks then no margin, if else, margin right 10
@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="hoobank" className='w-[124px] h-[32px]' />
+      <img src={logoNexus} alt="nexusbank" className='w-[140px] ' />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li key={nav.id} className={`z-[99] font-poppins font-normal cursor-pointer
