@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { close, logo, logoNova, logoNexus, logoNexus2, menu } from '../assets'
+import { close, logo, logoNova, logoNexus, menu } from '../assets'
 import { navLinks } from '../constants'
 
 // logic for ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}; dynamic block, if index is last element of navLinks then no margin, if else, margin right 10

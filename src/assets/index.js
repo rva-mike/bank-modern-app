@@ -25,7 +25,6 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import logoNexus from "./logoNexus.png"
 import logoNova from "./logoNova.png"
-import logoNexus2 from "./logoNexus2.png"
 import robotNexus from "./robotNexus.png"
 
 export {
@@ -55,7 +54,6 @@ export {
   people02,
   people03,
   logoNexus,
-  logoNexus2,
   logoNova,
   robotNexus,
 };
