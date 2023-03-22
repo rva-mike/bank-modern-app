@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logoNexus} alt="nexusbank" className='w-[140px] ' />
+      <img src={logoNexus} alt="nexusbank" className='w-[130px] ' />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li key={nav.id} className={`z-[99] font-poppins font-normal cursor-pointer
